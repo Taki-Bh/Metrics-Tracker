@@ -67,8 +67,8 @@ def main() -> None:
 
         # If the internet is unavailable, this keeps retrying
         # the SAME commit instead of creating new commits.
-    if has_uncommitted_changes():
-       push_until_success()
+   
+    push_until_success()
 
 
 if __name__ == "__main__":
